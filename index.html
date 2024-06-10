@@ -26,20 +26,22 @@
                 <span id="minutes">0</span> Minutes
             </div>
         </div>
-        <!-- <div class="payment-options">
-            <button class="payment-button" id="applePay">Apple Pay</button>
-            <button class="payment-button" id="googlePay">G Pay</button>
-            <button class="payment-button" id="creditCard">Card</button>
-            <button class="payment-button" id="twint">Twint</button>
-        </div>
-        <div class="terms"> 
-            <input type="checkbox" id="terms" name="terms">
-            <label for="terms">I accept the terms and conditions and data protection</label>
-        </div>
-        <button class="pay-button">Apple Pay</button>
-        <div class="powered-by">Powered by Stripe</div> -->
-        <button class="pay-button" onclick="window.history.back()">Back to previous page</button>
+        <button class="pay-button" id="goBackButton">Back to previous page</button>
     </div>
     <script src="scripts.js"></script>
+    <script>
+        document.getElementById('goBackButton').addEventListener('click', function() {
+            if (isEmbeddedInFigma()) {
+                parent.postMessage({ pluginMessage: { type: 'goBack' } }, '*');
+            } else {
+                window.history.back();
+            }
+        });
+
+        function isEmbeddedInFigma() {
+            // Check if the page is embedded in Figma
+            return window.location.href.includes('figma.com');
+        }
+    </script>
 </body>
 </html>
