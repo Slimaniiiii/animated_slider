@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.subtitle {
+    margin: 10px 0;
+}
+
+.price-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.price-option {
+    background-color: #5a1dfc;
+    padding: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.slider-container {
+    margin: 20px 0;
+}
+
+.charge-text {
+    margin-bottom: 10px;
+}
+
+#timeSlider {
+    width: 100%;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+#timeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #5a1dfc;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#timeSlider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #5a1dfc;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.time-display {
+    margin: 10px 0;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.payment-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    width: 50px;
+}
+
+.terms {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.pay-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a1dfc;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.powered-by {
+    margin-top: 10px;
+    font-size: 12px;
+}
