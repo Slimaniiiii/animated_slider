@@ -29,5 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (days === 5) {
             chargeDisplay.textContent = '25 CHF';
         }
+        else {
+            chargeDisplay.textContent = '3 CHF';
+        }
     });
 });
