@@ -1,5 +1,11 @@
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"> */
+/* use the above police */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Outfit', sans-serif;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -28,6 +34,16 @@ body {
     width: 100px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px; /* Adjust spacing between logo and text */
+}
+
+.rent{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.headerText{
+    font-size: 16px;
 }
 
 
@@ -62,6 +78,32 @@ body {
 .charge-text {
     margin-bottom: 10px;
 }
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 36%;
+    left: 39%;
+}
+
+/* for mobile view */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .image-container img {
+        top: 33%;
+        left: 10%;
+    }
+}
+
+#charge{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 #timeSlider {
     width: 100%;

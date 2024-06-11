@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chargeable</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <img src="./images/logo.png" alt="Chargeable Logo">
         </div>
-        <p class="subtitle">Rent a power bank. Return anywhere.</p>
+        <!-- <p class="subtitle">Rent a power bank. Return anywhere.</p> -->
+         <span><span class="rent">Rent</span> a power bank.</span>
+    </br>
+         <span><span class="rent">Return</span> anywhere.</span>
         <div class="price-options">
             <div class="price-option">3 CHF <br> 30 min</div>
             <div class="price-option">5 CHF <br> per day</div>
             <div class="price-option">Yours <br> 25 CHF</div>
         </div>
+    </br> </br> </br> </br> </br> </br> 
+        <div class="image-container">
+            <img src="./images/final.png" alt="Power Bank and Phone">
+        </div>
+    </br> </br> </br>
         <div class="slider-container">
             <p class="charge-text">You will be charged: <span id="charge">3 CHF</span></p>
             <input type="range" id="timeSlider" min="0" max="7200" value="0">
@@ -26,18 +37,6 @@
                 <span id="minutes">0</span> Minutes
             </div>
         </div>
-        <!-- <div class="payment-options">
-            <button class="payment-button" id="applePay">Apple Pay</button>
-            <button class="payment-button" id="googlePay">G Pay</button>
-            <button class="payment-button" id="creditCard">Card</button>
-            <button class="payment-button" id="twint">Twint</button>
-        </div>
-        <div class="terms"> 
-            <input type="checkbox" id="terms" name="terms">
-            <label for="terms">I accept the terms and conditions and data protection</label>
-        </div>
-        <button class="pay-button">Apple Pay</button>
-        <div class="powered-by">Powered by Stripe</div> -->
         <!-- <button class="pay-button" onclick="window.history.back()">go back to payment</button> -->
         <button class="pay-button" onclick="redirectToPayment()">go back to payment</button>
 
