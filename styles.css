@@ -42,6 +42,17 @@ body {
     margin-bottom: 10px;
 
 }
+.rent_1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.pb{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
 .headerText{
     font-size: 16px;
 }
@@ -68,7 +79,8 @@ body {
     align-items: center;
     color: white;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 0.8;
+    flex-direction: column;
 }
 
 .slider-container {
@@ -83,8 +95,12 @@ body {
     max-width: 300px;
     margin-bottom: 20px;
     position: absolute;
-    top: 36%;
+    top: 39%;
     left: 39%;
+}
+
+.chf{
+    font-weight: bold;
 }
 
 /* for mobile view */
@@ -94,7 +110,7 @@ body {
     }
 
     .image-container img {
-        top: 33%;
+        top: 38%;
         left: 10%;
     }
 }
