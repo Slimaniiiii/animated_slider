@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         hoursDisplay.textContent = hours;
         minutesDisplay.textContent = minutes;
 
-        if (days === 0) {
+        if (days === 0 && (hours === 0 && minutes < 30)) {
             chargeDisplay.textContent = '3 CHF';
-        } else if (days === 1 && (hours > 0 || minutes >= 30)) {
+        } else if (days === 0 || (days === 1 && (hours > 0 || minutes >= 30))) {
             chargeDisplay.textContent = '5 CHF';
         } else if (days === 2) {
             chargeDisplay.textContent = '10 CHF';
@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
             chargeDisplay.textContent = '20 CHF';
         } else if (days === 5) {
             chargeDisplay.textContent = '25 CHF';
-        }
-        else {
+        } else {
             chargeDisplay.textContent = '3 CHF';
         }
     });
 });
+
 function goBack() {
-    window.history.back()
+    window.history.back();
 }
