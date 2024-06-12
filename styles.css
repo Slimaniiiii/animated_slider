@@ -91,9 +91,9 @@ body {
 .charge-text {
     margin-bottom: 10px;
 }
-.image-container{
+/* .image-container{
 margin-bottom: 30px;
-}
+} */
 .image-container img {
     width: 100%;
     max-width: 300px;
@@ -114,7 +114,7 @@ margin-bottom: 30px;
     }
 
     .image-container img {
-        top: 28%;
+        top: 22%;
         left: 10%;
     }
 }
