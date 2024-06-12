@@ -90,6 +90,9 @@ body {
 .charge-text {
     margin-bottom: 10px;
 }
+.image-container{
+margin-bottom: 13px;
+}
 .image-container img {
     width: 100%;
     max-width: 300px;
@@ -110,7 +113,7 @@ body {
     }
 
     .image-container img {
-        top: 38%;
+        top: 43%;
         left: 10%;
     }
 }
@@ -119,7 +122,6 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
 
 #timeSlider {
     width: 100%;
