@@ -127,13 +127,6 @@ margin-bottom: 30px;
     }
 }
 
-/* iphone 12 pro */
-@media (max-width: 390px) {
-    .image-container img {
-        top: 30%;
-        left: 10%;
-    }
-}
 /* iphone XR */
 @media (max-width: 414px) {
     .image-container img {
@@ -141,13 +134,7 @@ margin-bottom: 30px;
         left: 10%;
     }
 }
-/* iphone X */
-@media (max-width: 375px) {
-    .image-container img {
-        top: 32%;
-        left: 10%;
-    }
-}
+
 /* normal iphone */
 @media (max-width: 320px) {
     .image-container img {
@@ -155,6 +142,28 @@ margin-bottom: 30px;
         left: 10%;
     }
 }
+
+/* 400px */
+@media (max-width: 400px) {
+    .image-container img {
+        top: 38%;
+        left: 10%;
+    }
+}
+@media (max-width: 390px) {
+    .image-container img {
+        top: 31%;
+        left: 10%;
+    }
+}
+/* SE IPHONE */
+@media (max-width: 375px) {
+    .image-container img {
+        top: 38%;
+        left: 10%;
+    }
+}
+
 #charge{
     font-size: 20px;
     font-weight: bold;
