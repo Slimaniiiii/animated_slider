@@ -130,7 +130,7 @@ margin-bottom: 30px;
 /* iphone XR */
 @media (max-width: 414px) {
     .image-container img {
-        top: 30%;
+        top: 27%;
         left: 10%;
     }
 }
@@ -146,13 +146,13 @@ margin-bottom: 30px;
 /* 400px */
 @media (max-width: 400px) {
     .image-container img {
-        top: 38%;
+        top: 33%;
         left: 10%;
     }
 }
 @media (max-width: 390px) {
     .image-container img {
-        top: 31%;
+        top: 28%;
         left: 10%;
     }
 }
